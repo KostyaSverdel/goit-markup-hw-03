@@ -312,6 +312,9 @@ padding: 30px;
 }
 ul {list-style: none;
 }
+.button-portfolio:not(:last-child) {
+    margin-right: 8px;
+}
 .button-portfolio {
    font-family: inherit;
    font-weight: 500;
@@ -326,18 +329,36 @@ ul {list-style: none;
         height: 38px;
         border-radius: 4px;
     background-color: var(--botton-colors-portfolio);
+     margin-right: 8px;
+     padding: 6px 22px;
+     border: none;
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
     background-color: var(--hovers-and-logo-color);
         color: var(--address-bord-color);
 }
-.button-portfolio-page {
- text-transform: uppercase;
+.buttons-portfolio-page {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.geo-port-butt {
+    display: flex;
+    align-items: center;
+justify-content: center;
+padding-bottom: 56px;
+}
+.pic-port {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+.pot-tx {
+    padding: 20px 24px;
 }
 .list-portfolio {
   
-
+margin-bottom: 4px;
         font-size: 18px;
         line-height: 2;
         /* identical to box height, or 200% */
